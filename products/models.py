@@ -17,6 +17,7 @@ class Category(models.Model):
 
 
 class Product(models.Model):
+    category = models.ForeignKey(Category, verbose_name="Категория", null=True, blank=True, on_delete=models.CASCADE)
     name = models.CharField(max_length=255, verbose_name="Название")
     price = models.FloatField(verbose_name="Цена", null=True, blank=True)
     count = models.IntegerField(verbose_name="Кол-во на складе")

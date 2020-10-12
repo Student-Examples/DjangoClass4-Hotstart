@@ -1,0 +1,134 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "category": null,
+      "name": "\u043a\u0443\u0440\u0442\u043a\u0430 \u0437\u0438\u043c\u043d\u044f\u044f",
+      "price": 12312.0,
+      "count": 22,
+      "created_date": "2020-10-09T14:31:27.154Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "category": null,
+      "name": "\u041a\u0443\u0440\u0442\u043a\u0430 \u0434\u0435\u043c\u0438\u0441\u0435\u0437\u043e\u043d\u043d\u0430\u044f",
+      "price": 12.0,
+      "count": 12,
+      "created_date": "2020-10-09T14:31:45.688Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "\u0414\u0438\u0432\u0430\u043d \u0441\u0438\u043d\u0438\u0439 \u043e\u0442 Maestro",
+      "price": 19400.0,
+      "count": 1,
+      "created_date": "2020-10-12T10:58:54.197Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "category": 3,
+      "name": "\u0421\u0442\u043e\u043b \u043a\u0440\u0443\u0433\u043b\u044b\u0439 20\u0441\u043c",
+      "price": 1400.0,
+      "count": 2,
+      "created_date": "2020-10-12T10:58:54.203Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "category": 3,
+      "name": "\u0422\u0430\u0431\u0443\u0440\u0435\u0442\u043a\u0430 \u043f\u043b\u0430\u0441\u0442\u0438\u043a 40\u0441\u043c",
+      "price": 900.0,
+      "count": 30,
+      "created_date": "2020-10-12T10:58:54.208Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "category": 4,
+      "name": "\u041a\u043e\u043b\u044c\u0446\u043e Glacier 18 \u0441 \u0431\u0440\u0438\u043b\u043b\u0438\u0430\u043d\u0442\u043e\u043c 10 \u043a\u0430\u0440\u0430\u0442",
+      "price": 90000.0,
+      "count": 1,
+      "created_date": "2020-10-12T10:58:54.222Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "category": 4,
+      "name": "\u041a\u043e\u043b\u044c\u0446\u043e Super 16.6 c \u0438\u0437\u0443\u043c\u0440\u0443\u0434\u043e\u043c",
+      "price": 45000.0,
+      "count": 1,
+      "created_date": "2020-10-12T10:58:54.234Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "category": 5,
+      "name": "Apple Iphone XS",
+      "price": 76000.0,
+      "count": 21,
+      "created_date": "2020-10-12T10:58:54.239Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "category": 5,
+      "name": "Apple Iphone 12 Red",
+      "price": 116000.0,
+      "count": 11,
+      "created_date": "2020-10-12T10:58:54.244Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "category": 5,
+      "name": "Samsung s 20 Ultra",
+      "price": 100000.0,
+      "count": 1,
+      "created_date": "2020-10-12T10:58:54.259Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "category": 5,
+      "name": "\u0423\u043c\u043d\u044b\u0439 \u0447\u0430\u0441\u044b Samsung Wear 2",
+      "price": 12000.0,
+      "count": 3,
+      "created_date": "2020-10-12T10:58:54.268Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "category": 5,
+      "name": "\u0423\u043c\u043d\u044b\u0439 \u0447\u0430\u0441\u044b Sony Watch 3.0",
+      "price": 19000.0,
+      "count": 3,
+      "created_date": "2020-10-12T10:58:54.273Z"
+    }
+  }
+]
