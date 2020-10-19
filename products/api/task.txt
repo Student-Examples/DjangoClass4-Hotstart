@@ -1,0 +1,10 @@
+1. Создать Serializer для Product
+2. Создать API для
+    * Получения списка всех Product -  GET /api/products/
+    * Получения списка Product по id категории  - GET /api/categories/1/products/
+    * Получения информации об одном Product по id -  GET /api/products/2/
+    * Удаление Product -  DELETE  /api/products/2/
+    * Создание нового Product в указанной  - POST /api/categories/1/products/
+        по id категории
+3. Проверить все это в Postman
+4. Проверить в на сайте(напишу чуть позже)
