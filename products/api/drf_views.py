@@ -22,6 +22,7 @@ class CategoriesListApiView(View):
         else:
             return JsonResponse(serializer.errors, status=400)
 
+
 class CategoryDetailsApiView(View):
     def get(self, request, *args, **kwargs):
         try:
