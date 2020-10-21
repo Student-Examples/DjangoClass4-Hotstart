@@ -23,6 +23,7 @@ class Product(models.Model):
     price = models.FloatField(verbose_name="Цена", null=True, blank=True)
     count = models.IntegerField(verbose_name="Кол-во на складе")
     created_date = models.DateTimeField(verbose_name="Дата добавления", auto_now_add=True)
+    image = models.FileField(verbose_name="Иконка", null=True, blank=True, upload_to="products")
 
     def __str__(self):
         return self.name

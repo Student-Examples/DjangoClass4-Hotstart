@@ -3,7 +3,12 @@
 <body>
     <ol>
         {% for product in products %}
-            <li>{{ product.name }}</li>
+            <li>
+                {{ product.name }}
+                {% if product.image.name %}
+                    <img src="{{ product.image.url }}" style="max-height: 50px;">
+                {% endif %}
+            </li>
         {% endfor %}
     </ol>
 </body>

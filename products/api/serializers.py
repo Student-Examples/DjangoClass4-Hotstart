@@ -1,3 +1,4 @@
+from django.conf import settings
 from rest_framework.fields import SerializerMethodField
 from rest_framework.relations import StringRelatedField
 from rest_framework.serializers import ModelSerializer
@@ -11,7 +12,7 @@ class ProductSerializer(ModelSerializer):
 
     class Meta:
         model = Product
-        fields = ["id", "name", "price", "count", "created_date", "category"]
+        fields = ["id", "name", "price", "count", "created_date", "category", "image"]
 
 
 class CategorySerializer(ModelSerializer):
