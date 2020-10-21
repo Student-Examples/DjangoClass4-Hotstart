@@ -17,7 +17,7 @@ class ProductSerializer(ModelSerializer):
 class CategorySerializer(ModelSerializer):
     short_name = SerializerMethodField()
     human_date = SerializerMethodField()
-    products = ProductSerializer(many=True)
+    products = ProductSerializer(many=True, read_only=True)
 
     class Meta:
         model = Category
